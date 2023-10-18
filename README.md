@@ -1,7 +1,7 @@
 # React + Vite
 
 Per aprire il progetto su localhost: </br>
--Installare Node.js in vscode da Nodejs.org;  </br>
+-Installare Node.js in vscode da [Nodejs.org](https://nodejs.org/it);  </br>
 -clonare il repository sul proprio computer con il comando: git clone https://github.com/Bart94rsm/Webdev-website-example.git ;  </br>
 -navigare nella directory del progetto clonato: cd percorso file/Webdev-website-example;  </br>
 -installare le dipendenze del progetto : npm install;  </br>
