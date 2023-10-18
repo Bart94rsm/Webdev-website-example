@@ -1,0 +1,92 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 4em;
+}
+
+.li-container {
+  display: flex;
+  gap: 2em;
+}
+
+.li-container > li {
+  list-style-type: none;
+  font-size: 1.1em;
+}
+
+.li-container li a {
+  text-decoration: none;
+  color: black;
+}
+
+.li-container li a:hover {
+  text-decoration: underline;
+  font-size: 1.15em;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text-container {
+  position: relative;
+  max-width: 60%;
+  font-size: 2rem;
+  padding-inline: 5em;
+  padding-block: 3em;
+  border: 1px solid black;
+}
+
+.list-container {
+  display: grid;
+  place-content: center;
+  padding-top: 4em;
+}
+
+.list li {
+  font-size: 2em;
+  padding-block: 1em;
+  transform: translateX(1000%);
+  animation: list 1s forwards;
+  list-style-type: none;
+}
+
+.list li:nth-child(2) {
+  animation: list 2s forwards;
+}
+.list li:nth-child(3) {
+  animation: list 3s forwards;
+}
+
+@keyframes list {
+  from {
+    transform: translateX(1000%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.dark {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.text-container button {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.list-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.list-container a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
